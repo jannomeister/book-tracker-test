@@ -29,6 +29,12 @@ npm run dev
 
 Go to [http://localhost:3000](http://localhost:3000)
 
+### 5. For the Database
+
+- Install SQLite and follow their given instructions
+- Create a database outside of your project and name it `booktracker.db`
+- Run the `lib/db.ts` file to automatically create the tables (`npx tsx db.ts`)
+
 ---
 
 ## 🎨 Why TailwindCSS?
